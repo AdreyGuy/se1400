@@ -1,0 +1,104 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    min-height: 100vh;
+    overflow: hidden; /* Desktop view lock */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0,225px)  repeat(3, 400px) minmax(0, 290px) repeat(2, 310px) minmax(0, 225px);
+    grid-template-rows: 110px 21vh 625px 28vh;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Grid Item Layouts */
+
+/* Row 1: Nav Section (Header) */
+.grid-container > .nav-section {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-color: rgba(255, 56, 60, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+/* Row 2: Top Gap */
+.grid-container > .top-gap {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    background-color: rgba(97, 85, 245, 0.3);
+}
+
+/* Row 3: Left Gap (starts below Top Gap, ends above Footer) */
+.grid-container > .left-gap {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: rgba(0, 192, 232, 0.3);
+}
+
+/* Row 3: Main Section */
+.grid-container > .main-section {
+    grid-column: 2 / 5;
+    grid-row: 3 / 4;
+    background-color: rgba(255, 141, 40, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px 40px;
+    gap: 24px;
+}
+
+/* Row 3: Middle Gap */
+.grid-container > .middle-gap {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    background-color: rgba(2, 84, 45, 0.3);
+}
+
+/* Row 3: Contact Info */
+.grid-container > .contact-info {
+    grid-column: 6 / 8;
+    grid-row: 3 / 4;
+    background-color: rgba(217, 217, 217, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 60px 40px;
+    gap: 20px;
+}
+
+/* Row 3: Right Gap */
+.grid-container > .right-gap {
+    grid-column: 8 / 9;
+    grid-row: 3 / 4;
+    background-color: rgba(0, 192, 232, 0.3);
+}
+
+/* Row 4: Footer Section */
+.grid-container > .footer-section {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+    background-color: rgba(234, 179, 8, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
