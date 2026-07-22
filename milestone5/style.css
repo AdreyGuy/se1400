@@ -1,0 +1,188 @@
+/* Reset & Base Styles */
+@font-face {
+    font-family: 'Neue Machina Black';
+    src: url('neue-machina-black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Machina Bold';
+    src: url('neue-machina-bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    --menu_buttons_text-color: rgba(90, 78, 236, 1);
+}
+
+h1{
+    font-size: 32px;
+    font-family: 'Neue Machina Black';
+    line-height: 107%;
+    text-align: left;
+    height: auto;
+    transform: translateY(5px) translateX(10px);
+}
+
+.button-rect {
+    font-size: 169px;
+    font-family: 'Neue Machina Black';
+    line-height: 107%;
+    text-align: left;
+    height: auto;
+    color: #ffffff;
+    white-space: nowrap;
+    transform: translateY(-33px) translateX(-2px);
+}
+
+.logo-rect {
+    align-self: flex-end;
+}
+
+.burger-rect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 13px;
+    transform: translateY(19px) translateX(-28px);
+}
+
+.burger-rect span {
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #ffffff;
+}
+
+.contact-rect {
+    font-size: 48px;
+    font-family: 'Neue Machina Bold';
+    font-weight: 700;
+    line-height: 107%;
+    text-align: left;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.circles-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.dot-rect {
+    display: block;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--menu_buttons_text-color);
+    color: #ffffff;
+    min-height: 100vh;
+    overflow: hidden; /* Desktop view lock */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0,220px)  repeat(3, 400px) minmax(0, 290px) repeat(2, 320px) minmax(0, 220px);
+    grid-template-rows: 8vh 21.5vh 615px 28vh;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Grid Item Layouts */
+
+/* Row 1: Nav Section (Header) */
+.grid-container > .nav-section {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-color: var(--menu_buttons_text-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+/* Row 2: Top Gap */
+.grid-container > .top-gap {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    background-color: var(--menu_buttons_text-color);
+}
+
+/* Row 3: Left Gap (starts below Top Gap, ends above Footer) */
+.grid-container > .left-gap {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: var(--menu_buttons_text-color);
+}
+
+/* Row 3: Main Section */
+.grid-container > .main-section {
+    grid-column: 2 / 5;
+    grid-row: 3 / 4;
+    background-color: var(--menu_buttons_text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 40px 60px 0;
+    gap: 65px;
+}
+
+/* Row 3: Middle Gap */
+.grid-container > .middle-gap {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    background-color: var(--menu_buttons_text-color);
+}
+
+/* Row 3: Contact Info */
+.grid-container > .contact-info {
+    grid-column: 6 / 8;
+    grid-row: 3 / 4;
+    background-color: var(--menu_buttons_text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 230px 0px;
+    gap: 25px;
+}
+
+/* Row 3: Right Gap */
+.grid-container > .right-gap {
+    grid-column: 8 / 9;
+    grid-row: 3 / 4;
+    background-color: var(--menu_buttons_text-color);
+}
+
+/* Row 4: Footer Section */
+.grid-container > .footer-section {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+    background-color: var(--menu_buttons_text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
