@@ -103,7 +103,7 @@ body {
 /* Grid Container */
 .grid-container {
     display: grid;
-    grid-template-columns: minmax(0, 220px) repeat(3, 400px) minmax(0, 290px) repeat(2, 320px) minmax(0, 220px);
+    grid-template-columns: minmax(0, 220px) repeat(3, 400px) minmax(0, 290px) repeat(2, 325px) minmax(0, 220px);
     grid-template-rows: 8vh 21.5vh 615px 28vh;
     width: 100%;
     height: 100vh;
