@@ -20,23 +20,23 @@
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 2.22vh;
     font-family: 'Neue Machina Black';
     line-height: 107%;
     text-align: left;
     height: auto;
-    transform: translateY(5px) translateX(10px);
+    transform: translateY(0.35vh) translateX(0.69vh);
 }
 
 .button-rect {
-    font-size: 169px;
+    font-size: 11.74vh;
     font-family: 'Neue Machina Black';
     line-height: 107%;
     text-align: left;
     height: auto;
     color: #ffffff;
     white-space: nowrap;
-    transform: translateY(-33px) translateX(-2px);
+    transform: translateY(-2.29vh) translateX(-0.14vh);
 }
 
 .logo-rect {
@@ -59,7 +59,7 @@ h1 {
 }
 
 .contact-rect {
-    font-size: 48px;
+    font-size: 3.33vh;
     font-family: 'Neue Machina Bold';
     font-weight: 700;
     line-height: 107%;
@@ -72,13 +72,13 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 25px;
+    gap: 1.74vh;
 }
 
 .dot-rect {
     display: block;
-    width: 67px;
-    height: 67px;
+    width: 4.65vh;
+    height: 4.65vh;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -103,8 +103,8 @@ body {
 /* Grid Container */
 .grid-container {
     display: grid;
-    grid-template-columns: minmax(0, 220px) repeat(3, 400px) minmax(0, 290px) repeat(2, 325px) minmax(0, 220px);
-    grid-template-rows: 8vh 21.5vh 615px 28vh;
+    grid-template-columns: minmax(0, 220px) repeat(3, 27.78vh) minmax(0, 290px) repeat(2, 22.57vh) minmax(0, 220px);
+    grid-template-rows: 8vh 21.5vh 42.71vh 28vh;
     width: 100%;
     height: 100vh;
 }
@@ -115,12 +115,13 @@ body {
 .grid-container>.nav-section {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
+    width: 100vw;
     background-color: var(--menu_buttons_text-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 2.78vh;
 }
 
 /* Row 2: Top Gap */
@@ -146,8 +147,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 40px 60px 0;
-    gap: 65px;
+    padding: 0 2.78vh 4.17vh 0;
+    gap: 4.51vh;
 }
 
 /* Row 3: Middle Gap */
@@ -166,8 +167,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 230px 0px;
-    gap: 25px;
+    padding: 15.97vh 0px;
+    gap: 1.74vh;
 }
 
 /* Row 3: Right Gap */
