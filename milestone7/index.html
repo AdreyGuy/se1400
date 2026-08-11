@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andrew Romanchenko - Portfolio</title>
     <meta name="description" content="Andrew Romanchenko Tech Art Portfolio" />
-    <meta name="robots" content="noindex, nofollow" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
     <div id="app-container">
         <!-- Scale Wrapper -->
         <div id="canvas-container">
             <div id="root-canvas">
-                
+
                 <!-- SVG Assets defined inline for re-use -->
                 <svg width="0" height="0" style="position:absolute">
-                  <defs>
-                    <path id="svg-p15746d00" d="M4.95327 0H66L61.0467 32H0L4.95327 0Z" />
-                    <path id="svg-p3aee0780" d="M15.4206 0H330L314.579 100H0L15.4206 0Z" />
-                    <path id="svg-p136fa900" d="M28.785 0H616L587.215 187H0L28.785 0Z" />
-                    <path id="svg-p16b3ae80" d="M10.9971 0H472L461.003 72H0L10.9971 0Z" />
-                    <path id="svg-p1b84a370" d="M10.9927 0H312L301.007 72H0L10.9927 0Z" />
-                    <path id="svg-p95c6f00" d="M1.1094 1.6641L19.1094 13.6641L37.1094 1.6641" />
-                  </defs>
+                    <defs>
+                        <path id="svg-p15746d00" d="M4.95327 0H66L61.0467 32H0L4.95327 0Z" />
+                        <path id="svg-p3aee0780" d="M15.4206 0H330L314.579 100H0L15.4206 0Z" />
+                        <path id="svg-p136fa900" d="M28.785 0H616L587.215 187H0L28.785 0Z" />
+                        <path id="svg-p16b3ae80" d="M10.9971 0H472L461.003 72H0L10.9971 0Z" />
+                        <path id="svg-p1b84a370" d="M10.9927 0H312L301.007 72H0L10.9927 0Z" />
+                        <path id="svg-p95c6f00" d="M1.1094 1.6641L19.1094 13.6641L37.1094 1.6641" />
+                    </defs>
                 </svg>
 
                 <!-- PAGE 1: HOME -->
@@ -31,7 +32,8 @@
                     <div class="home-bg-container">
                         <div class="home-bg-rotate">
                             <div class="home-bg-inner">
-                                <img src="src/imports/Slide16976-2/b77035a0cb185ce458aa03b1a214746a5c68ea4b.png" alt="BG" />
+                                <img src="src/imports/Slide16976-2/b77035a0cb185ce458aa03b1a214746a5c68ea4b.png"
+                                    alt="BG" />
                             </div>
                         </div>
                     </div>
@@ -62,23 +64,23 @@
 
                     <!-- Prev/Next Controls -->
                     <div class="btn-prev" onclick="carouselPrev()">
-                        <svg preserveAspectRatio="none" viewBox="0 0 214 65" style="width:100%;height:100%;position:absolute;">
+                        <svg preserveAspectRatio="none" viewBox="0 0 214 65"
+                            style="width:100%;height:100%;position:absolute;">
                             <path d="M10 0H214L204 65H0L10 0Z" fill="#5A4EEC"></path>
                         </svg>
                         <p class="font-bold text-white">prev</p>
                     </div>
                     <div class="btn-next" onclick="carouselNext()">
-                        <svg preserveAspectRatio="none" viewBox="0 0 214 65" style="width:100%;height:100%;position:absolute;">
+                        <svg preserveAspectRatio="none" viewBox="0 0 214 65"
+                            style="width:100%;height:100%;position:absolute;">
                             <path d="M10 0H214L204 65H0L10 0Z" fill="#5A4EEC"></path>
                         </svg>
                         <p class="font-bold text-white">next</p>
                     </div>
 
                     <!-- Carousel Hit Area -->
-                    <div id="carousel-hit-area" class="carousel-hit-area" 
-                         onmouseenter="handleCarouselEnter()" 
-                         onmouseleave="handleCarouselLeave()" 
-                         onclick="handleCarouselClick()"></div>
+                    <div id="carousel-hit-area" class="carousel-hit-area" onmouseenter="handleCarouselEnter()"
+                        onmouseleave="handleCarouselLeave()" onclick="handleCarouselClick()"></div>
 
                     <!-- Carousel Title Card -->
                     <div id="carousel-title-card" class="carousel-title-card">
@@ -95,26 +97,52 @@
                     <div class="home-bg-container">
                         <div class="home-bg-rotate">
                             <div class="home-bg-inner">
-                                <img src="src/imports/Slide16999/2d2d71dcc0812b0e5bb048bdeb89775808477e5f.png" alt="BG" />
+                                <img src="src/imports/Slide16999/2d2d71dcc0812b0e5bb048bdeb89775808477e5f.png"
+                                    alt="BG" />
                             </div>
                         </div>
                     </div>
                     <p class="about-welcome font-black text-black">Welcome, everybody!</p>
-                    <p class="about-desc font-regular text-black">Thanks for visiting my portfolio web page. My name is Andrei Romanchenko or just Andrew for you</p>
+                    <p class="about-desc font-regular text-black">Thanks for visiting my portfolio web page. My name is
+                        Andrei Romanchenko or just Andrew for you</p>
                     <p class="about-journey-title font-bold text-black">My journey in CGI</p>
                     <div class="about-journey-text font-regular text-black" style="word-break: break-word;">
-                        <p>Welcome, everybody! Thanks for visiting my portfolio web page. My name is Andrei Romanchenko, or just Andrew for you. My journey in CGI started when I was 13 years old. Just like every other friend around me back in Russia, we were very passionate about playing good 3-dimensional video games. For example, GTA 5 and GTA SAMP were my absolute favorite.</p>
-                        <p>One year later, I would start creating my own SAMP server. I knew absolutely nothing about developing game modifications, so I would use my pocket money to have teenagers like me build it for me. One more year passed, and it evolved into something bigger than just an innocent hosting server for fun. I convinced my dad to invest in our business, which would collect money from in-game purchases by players. Along that long investment and development process, I've met bad freelancers who would get their job done poorly, so I occasionally had to step in and learn more about certain game development topics myself to save up the budget in the future. Accordingly, the first one that caught my attention was 3d modeling. Knower School was my first online school, which taught me a lot about using 3ds max.</p>
-                        <p>Essentially, I could get some simple objects done for myself and others, including the big project, Twin Falls High School's Stadium, which I was sad about getting over with, as the school's interest in it slowly declined over time and turned into an unfinished and forgotten concept. Yet, I still benefited from it by learning how to operate a DJI drone to gather references, work with textures and UV maps, and model terrains during high school class hours within the school's facility and academic program. That's when I realized that I want to study Animation in college in the United States.</p>
-                        <p>From 2022 to 2023, during my senior year at Bonneville High School, I took my first online character animation course through CG Spectrum. Afterward, I studied for one year at the University of Idaho, pursuing a major in Animation and a minor in Computer Science. I then transferred to Utah Tech University. To this day, I am double-majoring in Software Engineering and Animation while working as a 3D Animator/Artist here at the university in Saint George, Utah.</p>
+                        <p>Welcome, everybody! Thanks for visiting my portfolio web page. My name is Andrei Romanchenko,
+                            or just Andrew for you. My journey in CGI started when I was 13 years old. Just like every
+                            other friend around me back in Russia, we were very passionate about playing good
+                            3-dimensional video games. For example, GTA 5 and GTA SAMP were my absolute favorite.</p>
+                        <p>One year later, I would start creating my own SAMP server. I knew absolutely nothing about
+                            developing game modifications, so I would use my pocket money to have teenagers like me
+                            build it for me. One more year passed, and it evolved into something bigger than just an
+                            innocent hosting server for fun. I convinced my dad to invest in our business, which would
+                            collect money from in-game purchases by players. Along that long investment and development
+                            process, I've met bad freelancers who would get their job done poorly, so I occasionally had
+                            to step in and learn more about certain game development topics myself to save up the budget
+                            in the future. Accordingly, the first one that caught my attention was 3d modeling. Knower
+                            School was my first online school, which taught me a lot about using 3ds max.</p>
+                        <p>Essentially, I could get some simple objects done for myself and others, including the big
+                            project, Twin Falls High School's Stadium, which I was sad about getting over with, as the
+                            school's interest in it slowly declined over time and turned into an unfinished and
+                            forgotten concept. Yet, I still benefited from it by learning how to operate a DJI drone to
+                            gather references, work with textures and UV maps, and model terrains during high school
+                            class hours within the school's facility and academic program. That's when I realized that I
+                            want to study Animation in college in the United States.</p>
+                        <p>From 2022 to 2023, during my senior year at Bonneville High School, I took my first online
+                            character animation course through CG Spectrum. Afterward, I studied for one year at the
+                            University of Idaho, pursuing a major in Animation and a minor in Computer Science. I then
+                            transferred to Utah Tech University. To this day, I am double-majoring in Software
+                            Engineering and Animation while working as a 3D Animator/Artist here at the university in
+                            Saint George, Utah.</p>
                     </div>
-                    
+
                     <div class="about-photo-room">
-                        <img src="src/imports/Slide16999/581c1cff2f50c71985595b93d1488e3425c374b5.png" alt="Andrei Romanchenko" />
+                        <img src="src/imports/Slide16999/581c1cff2f50c71985595b93d1488e3425c374b5.png"
+                            alt="Andrei Romanchenko" />
                     </div>
-                    
+
                     <div class="about-name-svg">
-                        <svg preserveAspectRatio="none" viewBox="0 0 489 63" style="width:100%;height:100%;position:absolute;">
+                        <svg preserveAspectRatio="none" viewBox="0 0 489 63"
+                            style="width:100%;height:100%;position:absolute;">
                             <path d="M9.76636 0H489L479.234 63H0L9.76636 0Z" fill="#5A4EEC"></path>
                         </svg>
                     </div>
@@ -126,48 +154,71 @@
                     <div class="home-bg-container">
                         <div class="home-bg-rotate">
                             <div class="home-bg-inner">
-                                <img src="src/imports/Slide16999/2d2d71dcc0812b0e5bb048bdeb89775808477e5f.png" alt="BG" />
+                                <img src="src/imports/Slide16999/2d2d71dcc0812b0e5bb048bdeb89775808477e5f.png"
+                                    alt="BG" />
                             </div>
                         </div>
                     </div>
                     <p class="artworks-title font-black">Categories</p>
-                    
+
                     <div class="accordion-container" id="accordion-container">
                         <!-- Environments -->
                         <div>
                             <button class="accordion-header" onclick="toggleAccordion(0)">
                                 <p>Environments</p>
                                 <div class="accordion-arrow" id="accordion-arrow-0">
-                                    <svg viewBox="0 0 38.2188 16.0678" fill="none"><use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use></svg>
+                                    <svg viewBox="0 0 38.2188 16.0678" fill="none">
+                                        <use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use>
+                                    </svg>
                                 </div>
                             </button>
                             <div class="accordion-content" id="accordion-content-0">
                                 <div class="horizontal-row">
-                                    <div class="horizontal-card" style="left:0px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Env 1"/></div>
-                                    <div class="horizontal-card" style="left:556px;"><img src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png" alt="Env 2"/></div>
-                                    <div class="horizontal-card" style="left:1112px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Env 3"/></div>
+                                    <div class="horizontal-card" style="left:0px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Env 1" /></div>
+                                    <div class="horizontal-card" style="left:556px;"><img
+                                            src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png"
+                                            alt="Env 2" /></div>
+                                    <div class="horizontal-card" style="left:1112px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Env 3" /></div>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Props -->
                         <div>
                             <button class="accordion-header" onclick="toggleAccordion(1)">
                                 <p>Props</p>
                                 <div class="accordion-arrow" id="accordion-arrow-1">
-                                    <svg viewBox="0 0 38.2188 16.0678" fill="none"><use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use></svg>
+                                    <svg viewBox="0 0 38.2188 16.0678" fill="none">
+                                        <use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use>
+                                    </svg>
                                 </div>
                             </button>
                             <div class="accordion-content" id="accordion-content-1">
                                 <div class="horizontal-row" style="margin-bottom: 40px;">
-                                    <div class="horizontal-card" style="left:0px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Prop 1"/></div>
-                                    <div class="horizontal-card" style="left:556px;"><img src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png" alt="Prop 2"/></div>
-                                    <div class="horizontal-card" style="left:1112px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Prop 3"/></div>
+                                    <div class="horizontal-card" style="left:0px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Prop 1" /></div>
+                                    <div class="horizontal-card" style="left:556px;"><img
+                                            src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png"
+                                            alt="Prop 2" /></div>
+                                    <div class="horizontal-card" style="left:1112px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Prop 3" /></div>
                                 </div>
                                 <div class="horizontal-row">
-                                    <div class="horizontal-card" style="left:0px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Prop 4"/></div>
-                                    <div class="horizontal-card" style="left:556px;"><img src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png" alt="Prop 5"/></div>
-                                    <div class="horizontal-card" style="left:1112px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Prop 6"/></div>
+                                    <div class="horizontal-card" style="left:0px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Prop 4" /></div>
+                                    <div class="horizontal-card" style="left:556px;"><img
+                                            src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png"
+                                            alt="Prop 5" /></div>
+                                    <div class="horizontal-card" style="left:1112px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Prop 6" /></div>
                                 </div>
                             </div>
                         </div>
@@ -177,14 +228,22 @@
                             <button class="accordion-header" onclick="toggleAccordion(2)">
                                 <p>Motion graphics</p>
                                 <div class="accordion-arrow" id="accordion-arrow-2">
-                                    <svg viewBox="0 0 38.2188 16.0678" fill="none"><use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use></svg>
+                                    <svg viewBox="0 0 38.2188 16.0678" fill="none">
+                                        <use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use>
+                                    </svg>
                                 </div>
                             </button>
                             <div class="accordion-content" id="accordion-content-2">
                                 <div class="horizontal-row">
-                                    <div class="horizontal-card" style="left:0px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Mg 1"/></div>
-                                    <div class="horizontal-card" style="left:556px;"><img src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png" alt="Mg 2"/></div>
-                                    <div class="horizontal-card" style="left:1112px;"><img src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Mg 3"/></div>
+                                    <div class="horizontal-card" style="left:0px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Mg 1" /></div>
+                                    <div class="horizontal-card" style="left:556px;"><img
+                                            src="src/imports/Slide16976-2/200ecad4d173b0315491b48996a37061346ffc49.png"
+                                            alt="Mg 2" /></div>
+                                    <div class="horizontal-card" style="left:1112px;"><img
+                                            src="src/imports/Slide16976-2/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                            alt="Mg 3" /></div>
                                 </div>
                             </div>
                         </div>
@@ -194,22 +253,40 @@
                             <button class="accordion-header" onclick="toggleAccordion(3)">
                                 <p>Character animations</p>
                                 <div class="accordion-arrow" id="accordion-arrow-3">
-                                    <svg viewBox="0 0 38.2188 16.0678" fill="none"><use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use></svg>
+                                    <svg viewBox="0 0 38.2188 16.0678" fill="none">
+                                        <use href="#svg-p95c6f00" stroke="#5A4EEC" stroke-width="4"></use>
+                                    </svg>
                                 </div>
                             </button>
                             <div class="accordion-content" id="accordion-content-3">
                                 <div class="tall-row">
                                     <div class="tall-card" style="left:0px;">
-                                        <div class="tall-card-inner"><div><img src="src/imports/Slide16988/b506cb7e7d6961c8a4dddbdd9c01fdce0d2a4e24.png" alt="Ca 1"/></div></div>
+                                        <div class="tall-card-inner">
+                                            <div><img
+                                                    src="src/imports/Slide16988/b506cb7e7d6961c8a4dddbdd9c01fdce0d2a4e24.png"
+                                                    alt="Ca 1" /></div>
+                                        </div>
                                     </div>
                                     <div class="tall-card" style="left:390px;">
-                                        <div class="tall-card-inner"><div><img src="src/imports/Slide16988/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Ca 2"/></div></div>
+                                        <div class="tall-card-inner">
+                                            <div><img
+                                                    src="src/imports/Slide16988/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                                    alt="Ca 2" /></div>
+                                        </div>
                                     </div>
                                     <div class="tall-card" style="left:780px;">
-                                        <div class="tall-card-inner"><div><img src="src/imports/Slide16988/200ecad4d173b0315491b48996a37061346ffc49.png" alt="Ca 3"/></div></div>
+                                        <div class="tall-card-inner">
+                                            <div><img
+                                                    src="src/imports/Slide16988/200ecad4d173b0315491b48996a37061346ffc49.png"
+                                                    alt="Ca 3" /></div>
+                                        </div>
                                     </div>
                                     <div class="tall-card" style="left:1170px;">
-                                        <div class="tall-card-inner"><div><img src="src/imports/Slide16988/0836f821addd20b851f40bbe0fd775c9004a3857.png" alt="Ca 4"/></div></div>
+                                        <div class="tall-card-inner">
+                                            <div><img
+                                                    src="src/imports/Slide16988/0836f821addd20b851f40bbe0fd775c9004a3857.png"
+                                                    alt="Ca 4" /></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -222,43 +299,90 @@
                 <div id="page-project" style="display: none;">
                     <div class="project-top-mask">
                         <div class="project-top-mask-inner">
-                            <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" alt="Project Top" />
+                            <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"
+                                alt="Project Top" />
                         </div>
                     </div>
                     <div class="project-title-card">
                         <div>
-                            <svg preserveAspectRatio="none" viewBox="0 0 616 187"><use href="#svg-p136fa900" fill="white"></use></svg>
-                            <div class="project-title"><p class="font-black">title</p></div>
-                            <div class="project-desc"><p class="font-bold">description</p></div>
+                            <svg preserveAspectRatio="none" viewBox="0 0 616 187">
+                                <use href="#svg-p136fa900" fill="white"></use>
+                            </svg>
+                            <div class="project-title">
+                                <p class="font-black">title</p>
+                            </div>
+                            <div class="project-desc">
+                                <p class="font-bold">description</p>
+                            </div>
                         </div>
                     </div>
 
-                    <p class="font-bold text-black text-center" style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:999px;font-size:64px;width:955px;word-break:break-word;text-align:center;">Animated hand</p>
-                    <p class="font-bold text-black text-center" style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:3124px;font-size:64px;width:955px;word-break:break-word;text-align:center;">Animated hand</p>
-                    <p class="font-bold text-black text-center" style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:6984px;font-size:64px;width:955px;word-break:break-word;text-align:center;">End</p>
-                    
-                    <p class="font-regular text-black" style="position:absolute;left:calc(16.67% + 2px);top:1101px;font-size:32px;line-height:1.3;width:1276px;word-break:break-word;">Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed. Ultrices quis molestie ut augue vel et sit nisi leo. Proin donec mi sem orci hac donec vitae viverra tempor. Massa sed vel adipiscing morbi porttitor phasellus fringilla consectetur.</p>
-                    <p class="font-regular text-black" style="position:absolute;left:calc(50% - 638px);top:1828px;font-size:32px;line-height:1.2;width:1276px;word-break:break-word;">Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed. Ultrices quis molestie ut augue vel et sit nisi leo. Proin donec mi sem orci hac donec vitae viverra tempor. Massa sed vel adipiscing morbi porttitor phasellus fringilla consectetur.</p>
-                    <p class="font-regular text-black" style="position:absolute;left:calc(50% - 638px);top:3226px;font-size:32px;line-height:1.2;width:1276px;word-break:break-word;">Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed. Ultrices quis molestie ut augue vel et sit nisi leo. Proin donec mi sem orci hac donec vitae viverra tempor. Massa sed vel adipiscing morbi porttitor phasellus fringilla consectetur.</p>
-                    <p class="font-regular text-black text-center" style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:7086px;font-size:32px;line-height:1.2;width:955px;word-break:break-word;">Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed.</p>
+                    <p class="font-bold text-black text-center"
+                        style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:999px;font-size:64px;width:955px;word-break:break-word;text-align:center;">
+                        Animated hand</p>
+                    <p class="font-bold text-black text-center"
+                        style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:3124px;font-size:64px;width:955px;word-break:break-word;text-align:center;">
+                        Animated hand</p>
+                    <p class="font-bold text-black text-center"
+                        style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:6984px;font-size:64px;width:955px;word-break:break-word;text-align:center;">
+                        End</p>
+
+                    <p class="font-regular text-black"
+                        style="position:absolute;left:calc(16.67% + 2px);top:1101px;font-size:32px;line-height:1.3;width:1276px;word-break:break-word;">
+                        Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta
+                        tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed. Ultrices quis molestie ut
+                        augue vel et sit nisi leo. Proin donec mi sem orci hac donec vitae viverra tempor. Massa sed vel
+                        adipiscing morbi porttitor phasellus fringilla consectetur.</p>
+                    <p class="font-regular text-black"
+                        style="position:absolute;left:calc(50% - 638px);top:1828px;font-size:32px;line-height:1.2;width:1276px;word-break:break-word;">
+                        Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta
+                        tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed. Ultrices quis molestie ut
+                        augue vel et sit nisi leo. Proin donec mi sem orci hac donec vitae viverra tempor. Massa sed vel
+                        adipiscing morbi porttitor phasellus fringilla consectetur.</p>
+                    <p class="font-regular text-black"
+                        style="position:absolute;left:calc(50% - 638px);top:3226px;font-size:32px;line-height:1.2;width:1276px;word-break:break-word;">
+                        Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta
+                        tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed. Ultrices quis molestie ut
+                        augue vel et sit nisi leo. Proin donec mi sem orci hac donec vitae viverra tempor. Massa sed vel
+                        adipiscing morbi porttitor phasellus fringilla consectetur.</p>
+                    <p class="font-regular text-black text-center"
+                        style="position:absolute;left:calc(50% + 0.5px);transform:translateX(-50%);top:7086px;font-size:32px;line-height:1.2;width:955px;word-break:break-word;">
+                        Lorem ipsum dolor sit amet consectetur. Sit felis ut facilisi sit et sit. Nibh quis enim porta
+                        tortor. Venenatis volutpat nulla tortor nibh urna morbi amet sed.</p>
 
                     <!-- Images along the project timeline -->
-                    <div class="proj-img" style="left:50%;transform:translateX(-50%);top:1491px;width:1276px;height:237px;"><img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"/></div>
-                    <div class="proj-img" style="left:calc(29.17% + 3px);transform:translateX(-50%);top:2218px;width:482px;height:467px;"><img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"/></div>
-                    <div class="proj-img" style="left:calc(66.67% + 1.5px);transform:translateX(-50%);top:2218px;width:633px;height:706px;"><img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"/></div>
-                    <div class="proj-img" style="left:calc(50% + 0.06px);transform:translateX(-50%);top:3616px;width:1276.129px;height:717px;"><img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"/></div>
-                    <div class="proj-img" style="left:calc(50% + 0.06px);transform:translateX(-50%);top:4433px;width:1276.129px;height:717px;"><img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"/></div>
-                    <div class="proj-img" style="left:calc(50% + 0.06px);transform:translateX(-50%);top:5250px;width:1276.129px;height:717px;"><img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"/></div>
-                    <div class="proj-img" style="left:calc(50% + 0.06px);transform:translateX(-50%);top:6067px;width:1276.129px;height:717px;"><img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png"/></div>
+                    <div class="proj-img"
+                        style="left:50%;transform:translateX(-50%);top:1491px;width:1276px;height:237px;"><img
+                            src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" /></div>
+                    <div class="proj-img"
+                        style="left:calc(29.17% + 3px);transform:translateX(-50%);top:2218px;width:482px;height:467px;">
+                        <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" /></div>
+                    <div class="proj-img"
+                        style="left:calc(66.67% + 1.5px);transform:translateX(-50%);top:2218px;width:633px;height:706px;">
+                        <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" /></div>
+                    <div class="proj-img"
+                        style="left:calc(50% + 0.06px);transform:translateX(-50%);top:3616px;width:1276.129px;height:717px;">
+                        <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" /></div>
+                    <div class="proj-img"
+                        style="left:calc(50% + 0.06px);transform:translateX(-50%);top:4433px;width:1276.129px;height:717px;">
+                        <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" /></div>
+                    <div class="proj-img"
+                        style="left:calc(50% + 0.06px);transform:translateX(-50%);top:5250px;width:1276.129px;height:717px;">
+                        <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" /></div>
+                    <div class="proj-img"
+                        style="left:calc(50% + 0.06px);transform:translateX(-50%);top:6067px;width:1276.129px;height:717px;">
+                        <img src="src/imports/Slide16975-1/200ecad4d173b0315491b48996a37061346ffc49.png" /></div>
 
                     <button class="project-btn-main" onclick="navigateTo('page-home')">
-                        <svg preserveAspectRatio="none" viewBox="0 0 472 72" style="width:100%;height:100%;position:absolute;left:0;top:0;">
+                        <svg preserveAspectRatio="none" viewBox="0 0 472 72"
+                            style="width:100%;height:100%;position:absolute;left:0;top:0;">
                             <path d="M10.9971 0H472L461.003 72H0L10.9971 0Z" fill="#5A4EEC"></path>
                         </svg>
                         <p class="font-bold">Go to the main page</p>
                     </button>
                     <button class="project-btn-about" onclick="navigateTo('page-about')">
-                        <svg preserveAspectRatio="none" viewBox="0 0 312 72" style="width:100%;height:100%;position:absolute;left:0;top:0;">
+                        <svg preserveAspectRatio="none" viewBox="0 0 312 72"
+                            style="width:100%;height:100%;position:absolute;left:0;top:0;">
                             <path d="M10.9927 0H312L301.007 72H0L10.9927 0Z" fill="#5A4EEC"></path>
                         </svg>
                         <p class="font-bold">About me</p>
@@ -269,7 +393,7 @@
                 <a class="logo" onclick="navigateTo('page-home')">
                     <p class="logo-text font-black text-accent">andrew romanchenko</p>
                 </a>
-                
+
                 <div class="burger-btn" onclick="toggleMenu()">
                     <svg preserveAspectRatio="none" viewBox="0 0 66 32">
                         <use href="#svg-p15746d00" fill="#5A4EEC"></use>
@@ -313,4 +437,5 @@
 
     <script src="js/app.js"></script>
 </body>
+
 </html>
